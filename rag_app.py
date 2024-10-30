@@ -86,6 +86,7 @@ prompt = ChatPromptTemplate.from_template("""Answer the question based only on t
 {context}
 
 Question: {input}
+Provide all responses as if you are a pirate
 """
 )
 
